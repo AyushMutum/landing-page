@@ -1,0 +1,183 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#fff;;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding-left: 3.8rem;
+}
+
+.navbar h1{
+    color:#0074e4
+}
+
+.navbar span{
+    font-size: 3rem;
+}
+.container {
+     padding: 3.8rem !important;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.hero{
+    display: flex;
+    align-items: end;
+    gap:5rem;
+}
+
+.hero-card{
+    margin-top: 4%;
+    width: 50%;
+   
+}
+
+.hero-card h1{
+    font-size: 3rem;
+}
+
+.hero-card p{
+    font-size: 1.2rem;
+
+}
+form{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+input{
+    width: 100%;
+    padding: 0.9rem;
+    margin: 2px;
+    border-radius: 5px;
+    border: 0.1rem solid black;
+    font-size: 1rem;
+}
+
+.btn-submit{
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #0074e4; 
+    color: #fff;
+}
+
+.btn-submit:hover{
+    background-color: #0054a7;
+}
+
+
+.hero-img{
+    width: 35%;
+
+
+}
+
+img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+
+
+@media (max-width:580px){
+
+  
+    .navbar{
+        text-transform: uppercase;
+        font-size: 0.5rem;
+        padding-left: 2rem;
+    
+    }
+
+    .navbar span{
+        font-size: 2rem;
+    }
+    h1{
+        width: 100px;
+    }
+
+    .container {
+        padding: 1rem !important;
+       display: flex;
+     
+       width: 350px;
+   }
+
+   .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap:1rem;
+}
+.hero-card{
+    
+    width: 320px;
+   
+}
+
+.hero-card h1{
+    width: 380px;
+    font-size: 2rem;
+}
+
+.hero-card p{
+    font-size: 1.1rem;
+    width: 350px;
+}
+form{
+    width: 350px;
+    box-sizing: border-box;
+}
+
+input{
+    width: 100%;
+    padding: 0.9rem;
+    margin: 2px;
+    border-radius: 5px;
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.btn-submit{
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #0074e4; 
+    color: #fff;
+}
+
+.btn-submit:hover{
+    background-color: #0054a7;
+}
+
+
+.hero-img{
+    width: 350px;
+   
+
+
+}
+
+img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+
+}
